@@ -1,0 +1,19 @@
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
